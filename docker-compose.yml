@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres 
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_DB: geopark_back_end
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /home/joilton/dockerPostgres/data:/var/lib/postgresql/data
+    ports:
+      - 5437:5432
