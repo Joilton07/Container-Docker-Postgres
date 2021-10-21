@@ -1,4 +1,4 @@
-# Container--Docker-Geopark
+# Container-Docker-Geopark
 Subindo o ambiente
 Para subir o ambiente execute o seguinte comando a partir da raiz da aplicação:
 
